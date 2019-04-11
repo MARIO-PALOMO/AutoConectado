@@ -145,7 +145,7 @@ module.exports = app => {
       origin.lat
     },${origin.lng}&destination=${destination.lat},${
       destination.lng
-    }&mode=driving&alternatives=false&language=es&key=GOOGLE_KEY`;
+    }&mode=driving&alternatives=false&language=es&key=AIzaSyA_uVKWprjIgPURNhl1v9zzTPLQJIBdi6I`;
     console.log(url);
 
     var result = { status: 500, msg: "internal error" };
